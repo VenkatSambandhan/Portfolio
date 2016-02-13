@@ -1,0 +1,120 @@
+﻿EDUCATION:
+
+BMSCE
+Bachelor's Of Engineering
+2009-2013
+CGPA: 8.98/10.0
+
+Indiana University, Bloomington
+Master's in Computer Science
+2015-2017
+CGPA: 3.76/4/0
+
+
+
+==============================================================================================================================================================================================================================
+
+
+
+EXPERIENCE:
+
+ZTE Telecom India Pvt Ltd
+Project Intern
+Oct 2012- Dec 2012
+Project: Configuration and Commissioning of SDH
+Next-generation SDH incorporating Ethernet-over-SDH making SDH an ideal platform for data requirements.
+
+
+Power Grid Corporation
+Project Intern
+Dec 2013- Feb 2013
+
+Tata Consultancy Services, Trainee
+Aug 2013-Dec 2013
+Developed a project from scratch on “ONLINE TEST TAKING SYSTEMS” using Eclipse, Java, SQL, HTML, CSS and ApacheTomcat.
+
+Tata Consultancy Services, Associate System Engineer
+Client: EQUIFAX
+Dec 2013-Jul 2015
+Develop Scripts for different batch jobs, process monitoring and alert system.
+Responsible for Configuration and Change Management Systems which includes resolving the Deployment issues in DEV, QA, Load, UAT and Production.
+
+
+Teaching Assisant at IU
+Subject: Social Media and Language
+Professor: John Paollilo
+
+Working on Google, YouTube, and SMS datasets in PostgreSQL.
+Develop scripts using Python.
+Create interactive websites using HTML, CSS, and PHP.
+
+
+==============================================================================================================================================================================================================================
+
+
+
+Projects:
+
+Restaurant/Lodging Online Reservation System for real world client Nov 2015
+Skills used: HTML, CSS, PHP, JSON, JavaScript, SQL
+Website: http://vishnusagar.herokuapp.com/
+• Develop a website for a real world client based on their constraints.
+• Provide online home delivery and room reservation facilities through thewebsite.
+
+Server Client Application using TCP and UDP Sep 2015
+Skills used: C, Silo and WireShark, Socket Programming
+Create a socket, bind it to a specific address and port, as well as send and receive a HTTP packet.
+• Running the web server to handle a HTML file. Handle TCP persistent and non-persistent connections.
+• Develop own HTTP client to test the server instead of using a browser.
+
+An Adaptive Steganographic Technique Based on IntegerWavelet Transform May 2013
+Skills used: Matlab Coding, Optimum Pixel Adjustment Algorithm, Integer Wavelet Transform, Histogram Equalization.
+Steganography attempts to hide the very existence of the message and make communication undetectable.
+It combines the use of adaptive hiding capacity function with the optimum pixel adjustment
+
+Privacy Preserving Data Protection Nov 2015
+Aim: No adversary gains a competitive advantage or sensitive information about the data owners.
+Provide methods and tools to fight against losing privacy
+Understand the different approaches to PPDP, use case scenarios, differentiate between PPDP and other similar problems.
+
+Big Data Analytics and its Application in E-Commerce Dec 2015
+Few case studies of how Big Data Analytics is being used by Amazon, Walmart and Adidas to raise their competitiveness level.
+Collaborative Filtering and Clustering Algorithm and other technologies used for the product recommendation system on E-Commerce websites.
+Understand the technologies used in Mobile Phone Analytics which make use of RFID tags, Bluetooth and GPS to identify the location of the user.
+
+Line Differential Protection: 
+
+
+Pagerank using Hadoop:
+Cloud Computing
+Using Map, Reduce.
+
+
+
+Config and comminssion of SDH:
+Skills Used: Computer Networks, Wireless Communications, Unitrans ZXONM E300 EMS tool for Configuring and Commissioning for SDH.
+Next-generation SDH incorporating Ethernet-over-SDH making SDH an ideal platform for data requirements.
+• This project will allow us to configure and commission Ethernet services over SDH.
+
+==============================================================================================================================================================================================================================
+
+
+Remove testimonials: add resume there....
+
+Portfolio: Make it like gallery.. add awards/certificates....
+
+My services: add Projects here...
+
+
+
+==============================================================================================================================================================================================================================
+
+
+hotel reservation - fa-cutlery
+page rank 0- fa fa-balance-scale
+Server client - computer.
+privacy - fa-lock
+Big Data - 
+line differ - fa-link
+stegno - fa fa-user-secret
+sdh - fa-wifi
