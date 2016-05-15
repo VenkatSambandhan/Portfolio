@@ -1,0 +1,51 @@
+git config --global user.name "YOUR NAME"
+git config --global user.email "YOUR EMAIL ADDRESS"
+
+sudo apt-get install git
+git init
+git config --global user.name "maazsyed"
+git config --global user.email "maazsyed@indiana.edu"
+git add .
+git commit -m "web initial commit"
+
+git remote add origin git@github.com:VenkatSambandhan/Portfolio.git
+git push -u origin master
+
+
+sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku --version
+
+
+heroku login
+heroku create
+
+git remote -v
+git push heroku master
+
+https://git.heroku.com/venkatsambandhan.git
+
+git remote set-url heroku https://git.heroku.com/venkatsambandhan.git
+
+touch composer.json
+vi composer.json
+
+ssh-keygen -t rsa -C "smaaz015@gmail.com"
+git status
+
+======================================================================================================================================================
+cd Desktop/Portfolio/
+
+git remote -v
+
+git add .
+git commit -m "web initial commit"
+
+git push heroku master   (if it doesn't work, its coz u need to pull some changes from heroku first..)
+
+git pull heroku master
+
+git status
+
+git push origin master
+
+git push heroku master

@@ -1,0 +1,93 @@
+pwd: school2012
+
+cd /root/software/hadoop-1.1.2/bin
+./stop-all.sh
+pkill java
+hadoop namenode -format
+./start-all.sh
+
+If this doesnt work, check for all commands below..
+
+./hadoop dfs -ls -> to check the folders created in hadoop dfs        (./ is used only inside the bin folder..)
+
+Have to share and mount evertime:
+machine:settings:shared folder: ubuntu
+sudo mount -t vboxsf UBUNTU ~/UBUNTU
+
+First mount the java files to shared location, and then Copy these java files to /root/MoocHomeworks/HadoopWordCount/
+
+Create Hadoop DFS input directory:
+./hadoop dfs -mkdir input
+
+./hadoop dfs -put /root/MoocHomeworks/HadoopPageRank/PageRankDataGenerator/pagerank5000g50.input.0 input/       (copy the input files to the input folder)
+
+Either run ./build.sh 
+or
+Create jar and then run using the belwo commands:
+javac -classpath $HADOOP_HOME/hadoop-core-1.1.2.jar:$HADOOP_HOME/lib/commons-cli-1.2.jar -d ./class *.java    (compile)
+jar -cvf statistics.jar -C ./class/ . (create jar)
+hadoop fs -rmr output
+./hadoop jar /root/MoocHomeworks/HadoopWordCount/statistics.jar statistics input output  (run the jar)
+
+Check the below links for output and logs:
+http://localhost:9005/jobtracker.jsp
+http://localhost:9001/dfshealth.jsp
+
+
+Creating git repository:
+git init   <- creates empty reposityory..
+git add .
+git remote add origin https://github.com/VenkatSambandhan/Portfolio.git
+
+
+
+http://venkatsambandhan.herokuapp.com/
+http://xmodulo.com/how-to-install-vmware-tools-on-vmware-player-vm.html
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+to share host and remote folders: sudo mount -t vboxsf UBUNTU UBUNTU
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+cd /root/software/hadoop-1.1.2/bin
+./stop-all.sh
+pkill java
+hadoop namenode -format
+./start-all.sh
+
+./hadoop dfs -mkdir input
+./hadoop dfs -put /root/MoocHomeworks/HadoopWordCount/input/Word_Count_input.txt input/
+ ./hadoop jar /root/MoocHomeworks/HadoopWordCount/statistics.jar statistics input output
+ 
+ 
+ 
+ 1. ./stop-all.sh
+2. pgrep java
+3. rm -rf /tmp/summer/data
+4. rm -rf /tmp/summer/name	
+5. hadoop namenode -format
+6. ./start-all.sh 10
+7. pgrep java
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+http://localhost:9005/jobtracker.jsp
+http://localhost:9001/dfshealth.jsp
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Mail from Saliya:
+1. I'd say, stop all services and make sure it worked by typing pgrep java which should show nothing when no java process is running. 
+2. Then please delete your /tmp/summer/data and /tmp/summer/name directories. You can use rm -rf /tmp/summer/name and rm -rf /tmp/summer/data
+3. Start all services and make sure you have a total of 5 daemons running in your machine. Again, you can use pgrep java to verify this. If you see all 5 daemons, then ./hadoop dfs -mkdir input should work.
+
+
+./hadoop dfs -put /home/summer/UBUNTU/Project1_Input_Data.txt input/
+
+./hadoop jar /home/summer/UBUNTU/MsgSizeAggregateMapReduce.jar MsgSizeAggregateMapReduce input output
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
